@@ -1,0 +1,162 @@
+/* Media - phone */
+@media screen and (max-width: 768px) {
+  /*================================== header section ==================================*/
+
+  header button,
+  nav ul a {
+    display: none;
+  }
+  .gamburger {
+    display: block;
+  }
+  .hero-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+    max-width: 30rem;
+    text-align: center;
+    gap: 1.8rem;
+  }
+  nav {
+    padding: 0 2rem;
+  }
+  .hero-phone {
+    flex-direction: column;
+    align-items: center;
+  }
+  header p {
+    font-size: 1.5rem;
+    line-height: 2.8px;
+    max-width: 32rem;
+    text-align: center;
+  }
+  header {
+    background: url("../assets/images/svg/hero-bg-2.svg") no-repeat bottom
+        center,
+      var(--midnight-green);
+  }
+  .md-none {
+    display: none;
+  }
+
+  /*======================================main1 section======================================== */
+  .main-bg-img {
+    background-image: url("../assets/images/svg/main-BG-img.svg") no-repeat;
+    background-position: top right;
+  }
+  main .container {
+    flex-direction: column;
+    gap: 5.6rem;
+    padding: 0 2.4rem;
+    align-items: center;
+  }
+  main .md-none {
+    display: block;
+  }
+  .main1-head {
+    align-items: flex-start;
+    gap: 3.2rem;
+  }
+  .main1-head .h2 {
+    text-align: start;
+    font-size: 3.2rem;
+    max-width: 24rem;
+  }
+  .main1-body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main1-body-h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin: 0 auto;
+  }
+  .main1-body-p {
+    max-width: 32rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  /* ======================================main2 section =================================*/
+
+  .main2 .container-padding {
+    padding: 0 2.4rem;
+  }
+  .main2 .Delivering {
+    max-width: 32rem;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+  }
+  .main2-body {
+    flex-direction: column;
+  }
+
+  /*========================================= main3 section=========================================== */
+  .main3 {
+    background-image: url("../assets/images/svg/last-para-bg-img.svg") no-repeat;
+    background-position: left bottom -17px;
+  }
+  .main3-body {
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+  }
+  .main3-body .h2 {
+    max-width: 32.2rem;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+
+    text-align: center;
+  }
+  .main3-body .btn {
+    padding: 9px 33px 11px 32px;
+    max-width: 15.3rem;
+  }
+
+  /*================================ footer section==================== */
+  .footer .center {
+    align-items: center;
+  }
+  .footer-left {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  /*============================ about page ====================*/
+
+
+  
+
+  .meeting .container {
+    padding: 10rem 2.4rem;
+  }
+  section.meeting {
+    background: url("../about/assets/images/svg/meeting\ top\ left.svg")
+        no-repeat top -10rem left,
+      url("../about/assets/images/svg/meeting\ bottom\ right.svg") no-repeat
+        bottom right,
+      var(--deep-jungle-green);
+  }
+  section.clints {
+    background: url("../about/assets/images/svg/clints\ bg.svg") no-repeat top -10rem
+        left -10rem,
+      var(--sacramento-state-green);
+  }
+
+  .clints_info .h2 {
+    font-size: 3.2rem;
+  }
+  .clints-body img {
+    width: 10rem;
+  }
+  .clints-body {
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+  }
+}

@@ -1,0 +1,119 @@
+/* Media - Tablet  */
+
+@media screen and (max-width: 1024px) {
+  header button,
+  nav ul a {
+    display: block;
+  }
+  .gamburger {
+    display: none;
+  }
+  .main2-body {
+    flex-direction: row;
+  }
+  .h1 {
+    font-size: 6.4rem;
+    line-height: 5.6rem;
+  }
+  .h3 {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 0 4rem;
+  }
+  header {
+    background: url("../assets/images/svg/hero-bg-2.svg") no-repeat bottom
+        center,
+      var(--midnight-green);
+  }
+  .hero-heading {
+    max-width: 350px;
+    text-align: center;
+  }
+  .hero-paragraph {
+    text-align: center;
+  }
+  .md-col {
+    flex-direction: column;
+  }
+  .md-items-center {
+    align-items: center;
+  }
+  .md-none {
+    display: none;
+  }
+  .md-g-2-4 {
+    gap: 2.4rem;
+  }
+  .main-bg-img {
+    background-image: url("../assets/images/svg/main-BG-img.svg") no-repeat;
+    background-position: top right;
+  }
+  main .container {
+    flex-direction: column;
+    gap: 6.4rem;
+    padding: 0 9.7rem;
+  }
+  main .md-none {
+    display: block;
+  }
+  main .container h2 {
+    font-size: 3.2rem;
+    text-align: start;
+  }
+  .info {
+    align-items: flex-start;
+    text-align: start;
+    gap: 1.6rem;
+  }
+
+  .main2 .container .h2 {
+    font-size: 3.2rem;
+    max-width: 48.3rem;
+    line-height: 3.2rem;
+  }
+  .main2 .container .g-3 {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main2 .container .g-3 .p-width {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    max-width: 57.3rem;
+  }
+  .main3 {
+    background-image: url("../assets/images/svg/last-para-bg-img.svg");
+    background-position: left bottom -17px;
+  }
+  .main3 .Delivering {
+    max-width: 57.3rem;
+  }
+  .main3 .Delivering .h2 {
+    font-size: 3.2rem;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 3.3rem;
+    padding: 5.6rem 0;
+  }
+  .footer-left {
+    gap: 30.2rem;
+  }
+  .footer-right {
+    gap: 26.5rem;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-direction: row;
+  }
+  .clints_info .h2 {
+    font-size: 3.2rem;
+  }
+  .clints-body img {
+    width: 10rem;
+  }
+  section.clints {
+    background: url("../about/assets/images/svg/clints\ bg.svg") no-repeat top -10rem left ,
+    var(--sacramento-state-green);
+  }
+}

@@ -1,0 +1,111 @@
+/* Global styles */
+:root {
+  --midnight-green: #014e56;
+  --light-coral: #f67e7e;
+  --rapture-blue: #79c8c7;
+  --police-blue: #2c6269;
+  --deep-jungle-green: #004047;
+  --sacramento-state-green: #012f34;
+  --dark-green: #002529;
+  --ff: "Livvic", sans-serif;
+  --fw-bold: 700;
+  --clr-100: #fff;
+  --fw-semi-bold: 600;
+}
+
+.hero-phone .h2 {
+  font-size: 6.4rem;
+}
+.hero-phone .h3 {
+  max-width: 72rem;
+}
+header {
+  background-image: none;
+  background-image: url("./assets/images/svg/header.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.md-none {
+  background: var(--light-coral);
+}
+.meeting {
+  background: url("../about/assets/images/svg/meeting\ top\ left.svg") no-repeat
+      top left,
+    url("../about/assets/images/svg/meeting\ bottom\ right.svg") no-repeat
+      bottom right,
+    var(--deep-jungle-green);
+}
+.derictors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  row-gap: 7.6rem;
+  column-gap: 3rem;
+}
+.intro {
+  background-color: var(--sacramento-state-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.2rem;
+  position: relative;
+}
+.intro .h3 {
+  margin-top: 1.6rem;
+}
+.intro .img {
+  width: 96px;
+  height: 96px;
+}
+.intro .italic {
+  margin-bottom: 2.6rem;
+}
+.plus {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  cursor: pointer;
+}
+.plus2 {
+  cursor: pointer;
+}
+.meeting__page .h2 {
+  max-width: 92rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.meeting__page {
+  padding: 14rem 0;
+}
+.intro .h3 {
+  text-align: center;
+}
+.social {
+  padding: 1rem;
+  cursor: pointer;
+}
+/* .clints-body img{
+    width: 20rem;
+} */
+.clints {
+  background: url("./assets/images/svg/clints\ bg.svg") no-repeat top left,
+    var(--sacramento-state-green);
+}
+.clints_info {
+  padding: 14.5rem 0;
+}
+.clints_info .h2 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+@media only screen and (max-width:768px) {
+  header {
+    background-image: url("./assets/images/svg/header.svg");
+    background-repeat: no-repeat;
+    background-position: bottom -10rem right;
+  }
+}
